@@ -8,9 +8,9 @@ docker-modman
 [![Docker Layers](https://badge.imagelayers.io/ffuenf/docker-modman.svg)][layers]
 [![PayPal Donate](https://img.shields.io/badge/paypal-donate-blue.svg)][paypal_donate]
 [tag]: https://github.com/ffuenf/docker-modman/tags
-[pulls]: https://hub.docker.com/r/ffuenf/docker-modman/
-[stars]: https://hub.docker.com/r/ffuenf/docker-modman/
-[layers]: https://imagelayers.io/?images=ffuenf/docker-modman:latest
+[pulls]: https://hub.docker.com/r/ffuenf/modman/
+[stars]: https://hub.docker.com/r/ffuenf/modman/
+[layers]: https://imagelayers.io/?images=ffuenf/modman:latest
 [paypal_donate]: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=J2PQS2WLT2Y8W&item_name=docker-modman%3a%20docker-modman&item_number=docker-modman&currency_code=EUR
 
 This provides a copy of [modman](https://github.com/colinmollenhour/modman) to be used in a docker environment.
