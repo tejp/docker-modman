@@ -3,11 +3,13 @@
 docker-modman
 =============
 [![GitHub tag](http://img.shields.io/github/tag/ffuenf/docker-modman.svg)][tag]
-[![Docker Pulls](https://img.shields.io/docker/pulls/ffuenf/docker-modman.svg)][pulls]
-[![Docker Stars](https://img.shields.io/docker/stars/ffuenf/docker-modman.svg)][stars]
-[![Docker Layers](https://badge.imagelayers.io/ffuenf/docker-modman.svg)][layers]
+[![Build Status](https://img.shields.io/travis/ffuenf/docker-modman.svg)][travis]
+[![Docker Pulls](https://img.shields.io/docker/pulls/ffuenf/modman.svg)][pulls]
+[![Docker Stars](https://img.shields.io/docker/stars/ffuenf/modman.svg)][stars]
+[![Docker Layers](https://badge.imagelayers.io/ffuenf/modman.svg)][layers]
 [![PayPal Donate](https://img.shields.io/badge/paypal-donate-blue.svg)][paypal_donate]
 [tag]: https://github.com/ffuenf/docker-modman/tags
+[travis]: https://travis-ci.org/ffuenf/docker-modman
 [pulls]: https://hub.docker.com/r/ffuenf/modman/
 [stars]: https://hub.docker.com/r/ffuenf/modman/
 [layers]: https://imagelayers.io/?images=ffuenf/modman:latest
