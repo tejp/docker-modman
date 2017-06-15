@@ -10,13 +10,14 @@ RUN curl -SL https://raw.githubusercontent.com/colinmollenhour/modman/master/mod
 
 RUN groupadd -g 1000 magento2
 RUN useradd -u 1000 -g 1000 -ms /bin/bash magento2
-USER magento2
 WORKDIR /home/magento2
 
 # Add modman wrapper
 COPY modman-wrapper.sh /modman-wrapper.sh
 
 RUN chmod +x /modman-wrapper.sh
+
+USER magento2
 
 # Allow for modman commands to specified
 ENTRYPOINT ["/modman-wrapper.sh"]
